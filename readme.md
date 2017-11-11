@@ -7,7 +7,7 @@ The program reads the initial settings from a file (game-settings.json) and one 
 * `Moves.json` contains the list of moves: 'R' for rotation and 'F' for forward movement
 * The files `game-settings-invalid.json` and `moves_invalid.json`, used to check that the program doesn't start when the initial settings or the moves are not valid.
 
-The program that will read the initial game settings from one file (settings.json) and one or more sequences of moves from another file (moves.json).
+The program will read the initial game settings from one file (settings.json) and one or more sequences of moves from another file (moves.json).
 For each move sequence the program will output if the sequence leads to the success or failure of the turtle: the turtle can either reach the exit (win), hit a mine (fail) or remain in the grid (danger).
 
 The board size is m (rows) x n (columns) and the coordinates system follows the same convention.
